@@ -20,5 +20,6 @@
 lst = [1, 1, 2, 3, 4, 5, 5]
 # print(nonrepeat(lst))
 
-# или так
+# Улучшение
+
 print([i for i in lst if lst.count(i) == 1])
